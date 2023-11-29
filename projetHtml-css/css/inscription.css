@@ -1,0 +1,117 @@
+/* reinitialisation du padding */
+* {
+    padding: 0%;
+  }
+  /* fin de la réinitialisation */
+  
+  /*  all media queries */
+  @media screen and (min-width: 1px) and (max-width: 1024px) {
+    #title {
+      position: absolute;
+    }
+    .top1 {
+      display: flex;
+    }
+    .top1 > h1 {
+      font-size: 0.8em;
+      margin: auto;
+    }
+    .top2 {
+      display: none;
+    }
+    img {
+      width: 100%;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      width: 50%;
+    }
+    #p208 {
+      height: 41.4%;
+    }
+    #form{
+        border: 3px solid darkblue;
+     
+    }
+   
+  }
+  
+  @media screen and (min-width: 1px) and (max-width: 1920px) {
+    img {
+      width: 100%;
+    }
+  
+    /* ----les tailles minimales--- */
+    @media screen and (min-width: 1px) and (max-width:320px)
+    ;
+      
+    }
+    @media screen and (min-width: 1025px) {
+    }
+  
+  
+  /*--------- header----------- */
+  
+  #title {
+    width: 100%;
+  
+    position: absolute;
+    color: rgb(192, 173, 148);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  .top1 {
+    width: 95%;
+    font-size: 50px;
+  }
+  .top2 {
+    text-align: center;
+    width: 100%;
+  }
+  
+  img {
+    width: 100%;
+  }
+  /*------menu------*/
+  ul {
+    list-style-type: none;
+    width: 100%;
+    background-color: rgb(32, 32, 49);
+    margin: auto;
+  }
+  .menu {
+    display: flex;
+    padding: 0%;
+    background-color: darkgray;
+    justify-content: center;
+    width: 100%;
+  }
+  .menu a {
+    display: block;
+    min-width: 120px; /*Largeur minimale des liens */
+    margin: 0.5rem; /* Marges externes */
+    padding: 0.4rem 0; /* Marges internes */
+    text-align: center;
+    background-color: #353242; /* Arrière-plan */
+    color: #fff; /* Couleur du texte */
+    text-decoration: none; /* enlever le soulignement */
+    border: 1px solid #fff; /* Bordure */
+    border-radius: 4px; /* Arrondis des bordures */
+    transition: all 1s; /* Ajout des transitions */
+  }
+  .menu a:hover {
+    background-color: #27aeed;
+    color: #3b3a2f;
+    border-color: #141307;
+  }
+  .menu li {
+    list-style-type: none; /* Suppression des puces */
+  }
+  
+  /* ----formulaire---- */
+#form{
+    border: 3px solid darkblue;
+}
